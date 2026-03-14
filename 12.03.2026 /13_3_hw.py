@@ -10,7 +10,7 @@ books = [
     {"id": 3, "title": "Clean Code", "author": "Robert C. Martin", "year": 2008, "description": "Software dev practices"},
 ]
 
-next_id = 4  # Auto-increment counter
+next_id = 4
 
 class BookCreate(BaseModel):
     title: str
