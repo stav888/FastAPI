@@ -4,7 +4,6 @@ from typing import Optional
 
 app = FastAPI()
 
-# In-memory storage
 books = [
     {"id": 1, "title": "The Hobbit", "author": "J.R.R. Tolkien", "year": 1937, "description": "Fantasy novel"},
     {"id": 2, "title": "1984", "author": "George Orwell", "year": 1949, "description": "Dystopian novel"},
